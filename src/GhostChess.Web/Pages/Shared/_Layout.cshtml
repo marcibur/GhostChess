@@ -10,12 +10,13 @@
     <link href="css/chess.css" rel="stylesheet" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    @RenderSection("CSS", false)
 </head>
 <body>
     <header style="padding-bottom:50px">
         <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
             <div class="container">
-                <a class="navbar-brand logo" href=""><i class="fas fa-chess-knight"></i>&nbsp;Ghost Chess</a>
+                <a class="navbar-brand logo" asp-page="/Index"><i class="fas fa-chess-knight"></i>&nbsp;Ghost Chess</a>
                 <button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navcol-1">
                     <ul class="nav navbar-nav ml-auto">
