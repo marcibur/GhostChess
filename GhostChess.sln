@@ -3,9 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28711.60
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6BCC7BEA-7089-4B84-9828-C8CAA78A18EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GhostChess.Web", "src\GhostChess.Web\GhostChess.Web.csproj", "{F00409E1-C5B7-4A60-BFC2-5747AC35EAFC}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F00409E1-C5B7-4A60-BFC2-5747AC35EAFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F00409E1-C5B7-4A60-BFC2-5747AC35EAFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F00409E1-C5B7-4A60-BFC2-5747AC35EAFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F00409E1-C5B7-4A60-BFC2-5747AC35EAFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F00409E1-C5B7-4A60-BFC2-5747AC35EAFC} = {6BCC7BEA-7089-4B84-9828-C8CAA78A18EF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F72F5147-BA28-4AC9-90A3-73DADFF870F8}
