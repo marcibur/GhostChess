@@ -7,10 +7,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6BCC7BEA-708
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GhostChess.Web", "src\GhostChess.Web\GhostChess.Web.csproj", "{F00409E1-C5B7-4A60-BFC2-5747AC35EAFC}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{B6657025-2472-450E-B79C-34AF8602AD08}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GhostChess.Models", "lib\GhostChess.Models\GhostChess.Models.csproj", "{76AA572C-6955-4AD2-B8D1-ADD675E16322}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GhostChess.Console", "src\GhostChess.Console\GhostChess.Console.csproj", "{ED1EB26D-4B5D-4837-9285-073E515669CC}"
 EndProject
 Global
@@ -23,10 +19,6 @@ Global
 		{F00409E1-C5B7-4A60-BFC2-5747AC35EAFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F00409E1-C5B7-4A60-BFC2-5747AC35EAFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F00409E1-C5B7-4A60-BFC2-5747AC35EAFC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{76AA572C-6955-4AD2-B8D1-ADD675E16322}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{76AA572C-6955-4AD2-B8D1-ADD675E16322}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{76AA572C-6955-4AD2-B8D1-ADD675E16322}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{76AA572C-6955-4AD2-B8D1-ADD675E16322}.Release|Any CPU.Build.0 = Release|Any CPU
 		{ED1EB26D-4B5D-4837-9285-073E515669CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{ED1EB26D-4B5D-4837-9285-073E515669CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED1EB26D-4B5D-4837-9285-073E515669CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -37,7 +29,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F00409E1-C5B7-4A60-BFC2-5747AC35EAFC} = {6BCC7BEA-7089-4B84-9828-C8CAA78A18EF}
-		{76AA572C-6955-4AD2-B8D1-ADD675E16322} = {B6657025-2472-450E-B79C-34AF8602AD08}
 		{ED1EB26D-4B5D-4837-9285-073E515669CC} = {6BCC7BEA-7089-4B84-9828-C8CAA78A18EF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
